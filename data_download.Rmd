@@ -32,7 +32,9 @@ Ongoing data collection continues as part of several PhD and postdoctoral studie
 
 <hr class="hr-grey">
 
-Additional data are available below:  
+Additional quarterly data are available below on Rabies cases and exposures in Serengeti District. This is not available on the main website.  
   
-  * <b>Animal Rabies cases in Serengeti District - Quarter 1</b> - `r embed_review(type="case", quarter_n=quarter_n, label="Download")`  
-  * <b>Human Rabies exposures in Serengeti District - Quarter 1</b> - `r embed_review(type="exposure", quarter_n=quarter_n, label="Download")`  
+<b>Quarter 1</b>  
+  
+  * Animal Rabies cases - `r embed_review(type="case", quarter_n=quarter_n, label="Download")`  
+  * Human Rabies exposures - `r embed_review(type="exposure", quarter_n=quarter_n, label="Download")`  

@@ -33,17 +33,6 @@ navbar:
         - text: "--------"
         - text: "Download Data"
           href: data_download.html
-    - text: "Related Projects"
-      icon: fa-globe fa-lg
-      menu:
-        - text: "Central Hub"
-          href: https://rabiesresearch.shinyapps.io/shiny_hub/
-        - text: "--------"
-        - text: "Ngorongoro District"
-          href: https://rabiesresearch.github.io/Ngorongoro/
-        - text: "--------"
-        - text: "Philippines (SPEEDIER)"
-          href: https://rabiesresearch.github.io/SPEEDIER/
 output:
   html_document:
     theme: united
