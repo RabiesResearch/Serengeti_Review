@@ -1,0 +1,52 @@
+name: "my-website"
+output_dir: "."
+# Produce navigation bar at the top of the screen with the menus
+navbar:
+  # Title appears in the top left of the navbar
+  title: "REVIEW: Serengeti Rabies Research"
+  # Arrange items on the left side of the navbar (to the right of the title)
+  # type: inverse # Changes theme colour to purple
+
+  # Arrange items on the right side of the navbar (social links)
+  right:
+    - text: "Home"
+      href: index.html # The page that will appear when the name on the navbar is clicked
+    - text: "About"
+      menu:
+        - text: "Background" # Name that appears on the navbar
+          href: about_overview.html
+        - text: "--------"
+        - text: "Rabies Control"
+          href: about_vax.html
+        - text: "Rabies Epidemiology"
+          href: about_epi.html
+        - text: "--------"
+        - text: "Publications"
+          href: about_publications.html
+    - text: "Results"
+      icon: fa-bar-chart
+      menu:
+        - text: "Dog Vaccination"
+          href: data_vax.html
+        - text: "Rabies Incidence"
+          href: data_epi.html
+        - text: "--------"
+        - text: "Download Data"
+          href: data_download.html
+    - text: "Related Projects"
+      icon: fa-globe fa-lg
+      menu:
+        - text: "Central Hub"
+          href: https://rabiesresearch.shinyapps.io/shiny_hub/
+        - text: "--------"
+        - text: "Ngorongoro District"
+          href: https://rabiesresearch.github.io/Ngorongoro/
+        - text: "--------"
+        - text: "Philippines (SPEEDIER)"
+          href: https://rabiesresearch.github.io/SPEEDIER/
+output:
+  html_document:
+    theme: united
+    include:
+      after_body: footer.html
+    css: style.css
