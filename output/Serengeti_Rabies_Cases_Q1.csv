@@ -1,5 +1,7 @@
 "Species","Date","Diagnosis","District","Ward","Village"
 "Wildlife: Jackal",2021-01-13,"Lateral Flow Test","Serengeti","Mugumu","Mugumu"
+"Domestic dog",2021-01-16,"Clinical Signs","Serengeti","Mugumu","Mugumu"
+"Domestic dog",2021-02-10,"Clinical Signs","Serengeti","Nyambureti","Maburi"
 "Domestic dog",2021-03-04,"Lateral Flow Test","Serengeti","Uwanja wa Ndege","Kyambahi"
 "Domestic dog",2021-03-10,"Clinical Signs","Serengeti","Nyambureti","Gusuhi"
 "Domestic dog",2021-03-11,"Lateral Flow Test","Serengeti","Nyambureti","Maburi"
